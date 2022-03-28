@@ -6,4 +6,4 @@ RadarDetector is a resource that adds a radar dector to vehicles.  It works by u
 ## Instructions on how to Install
 Alter the `owned_vehicles` table to store vehicle accessories by running this Query
 
-| ALTER TABLE `owned_vehicles` ADD `accessories` LONGTEXT NULL DEFAULT NULL |
+```ALTER TABLE `owned_vehicles` ADD `accessories` LONGTEXT NULL DEFAULT NULL```
