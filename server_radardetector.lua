@@ -1,3 +1,6 @@
+--RadarDetector by Brentopc
+--Version v0.9.1
+
 CreateThread(function() GetConfig("VehicleAccessories", function(ResourceConfig)
 	if ResourceConfig and ResourceConfig.ScriptEnabled then	
 	
