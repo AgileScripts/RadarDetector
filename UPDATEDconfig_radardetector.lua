@@ -8,7 +8,7 @@ Config.ConfigVersion = "1.0"
 
 Config.KaBandRange = 200
 
-Config.KBandRange = 0
+Config.KBandRange = 400
 Config.KBandFakeLocations = {
 	vector3(1838.65, 3673.96, 35.28),
 	vector3(299.2, -584.7, 43.26),
