@@ -1,6 +1,9 @@
+--RadarDetector by Brentopc
+--Version v0.9.1
+
 local ESX, vehiclePlate, beepWait, isNearRadar, distanceToRadar, radarRange = nil, nil, 2000, false, 0, 0
 
---[Radar Detector] Radar detection
+--[RadarDetector] Radar detection
 CreateThread(function() GetConfig("VehicleAccessories", function(ResourceConfig)
 	if ResourceConfig and ResourceConfig.ScriptEnabled then	
 
@@ -69,7 +72,7 @@ CreateThread(function() GetConfig("VehicleAccessories", function(ResourceConfig)
 	end	
 end) end)
 
---[Radar Detector] Beep handler
+--[RadarDetector] Beep handler
 CreateThread(function() GetConfig("VehicleAccessories", function(ResourceConfig)
 	if ResourceConfig.ScriptEnabled then	
 	
