@@ -10,4 +10,5 @@ RadarDetector is a resource that adds a radar dector to vehicles.  It works by u
 3. Rename and remove `UPDATED` from the `config` file
 4. Ensure that the latest version of `wk_wars2x` is installed.
 5. If using ESX, add the configured item to your `items` table, and set `UseESX` to true.
-6. If using mysql-async alone or with ESX, alter the `owned_vehicles` table to store vehicle accessories by running this query ```ALTER TABLE `owned_vehicles` ADD `accessories` LONGTEXT NULL DEFAULT NULL```.
+6. If using mysql-async alone or with ESX, alter the `owned_vehicles` table to store vehicle accessories by running this query.
+```ALTER TABLE `owned_vehicles` ADD `accessories` LONGTEXT NULL DEFAULT NULL```
