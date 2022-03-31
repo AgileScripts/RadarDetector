@@ -4,7 +4,7 @@ Requires Miggens Scripts Framework https://miggensscripts.tebex.io/
 
 # Resource Description
 
-RadarDetector is a resource that adds a radar dector to vehicles.  It works by using the wk_wars2x radar script to detect Officers running radar.  The script has configurable K Band and Ka Band.  Ka Band is short range but 100% accurate while K Band is long range but has false alarms that are configurable.
+RadarDetector is a resource that adds a radar dector to vehicles.  It works by using the wk_wars2x radar script to detect Officers running radar.  The script has configurable K Band and Ka Band.  Ka-Band is short range but 100% accurate while K-Band is long range but has false alarm locaions that are configurable.
 
 ## How to Install
 
