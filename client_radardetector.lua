@@ -31,7 +31,11 @@ CreateThread(function() GetConfig("VehicleAccessories", function(ResourceConfig)
 		end
 		
 		RegisterCallback("VehicleAccessories:Client:isRunningRadar", function()
-			return IsRunningRadar(), GetEntityCoords(PlayerPedId())
+			if PlayerPedId() then
+				return IsRunningRadar(), GetEntityCoords(PlayerPedId())
+			else
+				return false, nil					
+			end
 		end)
 		
 		while ResourceConfig.ScriptEnabled do
