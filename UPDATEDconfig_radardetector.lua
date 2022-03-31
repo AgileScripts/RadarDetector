@@ -3,8 +3,8 @@ local Config = {}
 Config.ScriptEnabled = true
 Config.ScriptName = "RadarDetector"
 Config.ScriptAuthor = "Brentopc"
-Config.ScriptVersion = "1.0"
-Config.ConfigVersion = "1.0"
+Config.ScriptVersion = "0.9.1"
+Config.ConfigVersion = "0.9.1"
 
 Config.KaBandRange = 200
 
